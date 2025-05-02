@@ -16,19 +16,91 @@
     <!--[if lte IE 8
       ]><script src="assets/js/ie/html5shiv.js"></script
     ><![endif]-->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 9
       ]><link rel="stylesheet" href="assets/css/ie9.css"
     /><![endif]-->
   </head>
   <body>
+
+      <nav class="navbar w-100 d-flex navbar-expand-lg navbar-dark bg-dark align-items-center">
+        <div class="container">
+        <a class="navbar-brand" href="#">LOC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <div class="container">
+          <form class="d-flex justify-items-end form-inline my-lg-0">
+            <input
+              class="form-control mr-sm-2 h-auto p-1"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-sm btn-warning h-auto p-1 btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+          </div>
+        </div>
+        </div>
+      </nav>
     <!-- Banner -->
     <section id="banner">
       <div class="inner split">
         <section>
           <h2>
             Welcome to your number one building companion.
-            <a href="http://templated.co">Liam Construction</a>
+            <a href="http://templated.co" class="">Liam Construction</a>
           </h2>
         </section>
         <section>
@@ -37,7 +109,7 @@
             to landscaping
           </p>
           <ul class="actions">
-            <li><a href="#" class="button special">Get started</a></li>
+            <li><a href="#" class="btn btn-dark">Get started</a></li>
           </ul>
         </section>
       </div>
