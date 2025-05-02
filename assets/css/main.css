@@ -1759,7 +1759,7 @@
 	button,
 	.button {
 		background-color: #fafafa;
-		color: #666 !important;
+		color: black !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2734,7 +2734,7 @@
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
 				background-color: #fafafa;
-				color: #666 !important;
+				color: white !important;
 			}
 
 				.wrapper.style1 input[type="submit"]:hover,
@@ -3199,10 +3199,10 @@
 /* Banner */
 
 	#banner {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #4A4771 0%, #7C3875 100%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #4A4771 0%, #7C3875 100%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #4A4771 0%, #7C3875 100%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #4A4771 0%, #7C3875 100%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgb(106, 211, 125) 0%, rgb(24, 211, 58) 100%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgb(106, 211, 125) 0%,rgb(24, 211, 58) 100%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgb(106, 211, 125) 0%,rgb(24, 211, 58)100%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, rgb(106, 211, 125) 0%,rgb(24, 211, 58) 100%);
 		background-size: 100px 100px, cover;
 		color: rgba(255, 255, 255, 0.5);
 		padding: 14em 0 4em;
