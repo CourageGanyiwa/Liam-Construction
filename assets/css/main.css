@@ -3397,7 +3397,7 @@ table.alt tbody tr td {
   background-image: url("../images/hero1.jpg");
   /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
   background-repeat: no-repeat;
-  background-size: 100% 100%, cover;
+  background-size: 100% 100%, contain;
   background-color: rgba(0, 0, 0, 2.4);
   color: rgba(7, 7, 7, 0.878);
   padding: 14em 0 4em;
