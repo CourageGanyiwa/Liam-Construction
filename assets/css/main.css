@@ -2734,6 +2734,7 @@ table.alt tbody tr td {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding-bottom: 2em;
+  justify-content: space-evenly;
 }
 
 .split > * {
@@ -2786,6 +2787,8 @@ table.alt tbody tr td {
 }
 
 .split > :nth-child(even) {
+  display: flex;
+  justify-content: center;
   border-left-color: rgba(144, 144, 144, 0.25);
 }
 
